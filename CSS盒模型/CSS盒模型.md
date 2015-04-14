@@ -66,6 +66,13 @@ Float 可用于实现文字环绕图片。<br>
 + 你需要设置每一列的宽度。
 + 如果HTML源代码中元素之间有空格，那么列与列之间会产生空隙。
 
+### 4.5 column布局
+### 4.6 flex布局
+
++ 支持 px+百分比
++ 支持CSS居中
++ 兼容性较差
+
 ## 5. 响应式设计
 
 	@media screen and (min-width:600px) {
@@ -88,6 +95,7 @@ Float 可用于实现文字环绕图片。<br>
 + 轻松的实现文字的多列布局。
 + 它不被IE9及以下和Opera Mini支持。
 
+三列布局
 
 	.three-column {
 	  padding: 1em;
@@ -99,3 +107,8 @@ Float 可用于实现文字环绕图片。<br>
 	  column-gap: 1em;
 	}
 
+[Learn CSS Layout](http://learnlayout.com)
+
+## 7. 其他
+<b>margin合并：</b>
+只有普通文档流中块框的垂直外边距才会发生外边距合并。行内框、浮动框或绝对定位之间的外边距不会合并。
